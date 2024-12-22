@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O melhor site de vendas online com ofertas incríveis e uma experiência de navegação única!">
+    <title>Loja Online - Ofertas Imperdíveis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff7043;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url('banner.jpg') no-repeat center/cover;
+            height: 300px;
+            color: white;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .category {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .category img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .category h3 {
+            margin: 1rem 0 0.5rem;
+            font-size: 1.2rem;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Sua Loja Online!</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categorias</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="hero">
+        <h2>Grandes Ofertas Todos os Dias!</h2>
+    </div>
+    <section class="categories">
+        <div class="category">
+            <img src="categoria1.jpg" alt="Categoria 1">
+            <h3>Eletrônicos</h3>
+        </div>
+        <div class="category">
+            <img src="categoria2.jpg" alt="Categoria 2">
+            <h3>Roupas</h3>
+        </div>
+        <div class="category">
+            <img src="categoria3.jpg" alt="Categoria 3">
+            <h3>Casa e Decoração</h3>
+        </div>
+        <div class="category">
+            <img src="categoria4.jpg" alt="Categoria 4">
+            <h3>Esporte</h3>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Sua Loja Online. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
